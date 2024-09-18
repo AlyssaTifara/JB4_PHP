@@ -67,7 +67,7 @@ $hargaAwal = 120000;
 $diskon = 0.2;
 $hargaSetelahDiskon = $hargaAwal - ($hargaAwal * $diskon);
 
-echo "Harga yang harus dibayar setelah mendapatkan diskon adalah: Rp " . number_format($hargaSetelahDiskon, 0, ',', '.') . "<br>";
+echo "Harga yang harus dibayar setelah mendapatkan diskon adalah: Rp " . number_format($hargaSetelahDiskon, 0, ',', '.') . "<br><br>";
 
 $poin = 600; 
 $totalSkor = $poin;
